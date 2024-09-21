@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Grid, List } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => (
   <div style={{ padding: '20px', background: '#f1f1f1' }}>
@@ -34,7 +36,7 @@ const Footer = () => (
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign='center'>
-            <p>DEV@Deakin 2022 | <a href="#">Privacy Policy</a> | <a href="#">Terms</a> | <a href="#">Code of Conduct</a></p>
+            <p>DEV@Deakin 2022 | <Link>Privacy Policy</Link> | <Link>Terms</Link> | <Link>Code of Conduct</Link></p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
