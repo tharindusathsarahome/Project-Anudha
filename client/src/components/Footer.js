@@ -34,7 +34,7 @@ const Footer = () => (
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign='center'>
-            <p>DEV@Deakin 2022 | <a href="">Privacy Policy</a> | <a href="">Terms</a> | <a href="">Code of Conduct</a></p>
+            <p>DEV@Deakin 2022 | <a href="#">Privacy Policy</a> | <a href="#">Terms</a> | <a href="#">Code of Conduct</a></p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
